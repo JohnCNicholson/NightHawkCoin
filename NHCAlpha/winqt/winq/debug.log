@@ -1,0 +1,922 @@
+2015-04-20 04:01:08 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2015-04-20 04:01:08 NightHawkCoin version v0.8.6.2-unk-beta (Feb 24 2014, 02:03:35)
+2015-04-20 04:01:08 Using OpenSSL version OpenSSL 1.0.1g 7 Apr 2014
+2015-04-20 04:01:08 Default data directory .
+2015-04-20 04:01:08 Using data directory .
+2015-04-20 04:01:08 Using at most 125 connections (2048 file descriptors available)
+2015-04-20 04:01:08 Using 4 threads for script verification
+2015-04-20 04:01:08 init message: Verifying wallet...
+2015-04-20 04:01:08 dbenv.open LogDir=.\database ErrorFile=.\db.log
+2015-04-20 04:01:08 Bound to [::]:11085
+2015-04-20 04:01:08 Bound to 0.0.0.0:11085
+2015-04-20 04:01:08 init message: Loading block index...
+2015-04-20 04:01:08 Opening LevelDB in .\blocks\index
+2015-04-20 04:01:08 Opened LevelDB successfully
+2015-04-20 04:01:08 Opening LevelDB in .\chainstate
+2015-04-20 04:01:08 Opened LevelDB successfully
+2015-04-20 04:01:08 LoadBlockIndexDB(): last block file = 0
+2015-04-20 04:01:08 LoadBlockIndexDB(): transaction index disabled
+2015-04-20 04:01:08 Initializing databases...
+2015-04-20 04:01:08 bcfd1c15132d4c71f37961f443eef2d87707e79fcf030bf3d6a24d9938888e7c
+2015-04-20 04:01:08 bcfd1c15132d4c71f37961f443eef2d87707e79fcf030bf3d6a24d9938888e7c
+2015-04-20 04:01:08 df5d4cddc97c45da161f81032af08c18a6b7caecf0fb13d416108d61872cb618
+2015-04-20 04:01:08 CBlock(hash=bcfd1c15132d4c71f37961f443eef2d87707e79fcf030bf3d6a24d9938888e7c, input=01000000000000000000000000000000000000000000000000000000000000000000000018b62c87618d1016d413fbf0eccab7a6188cf02a03811f16da457cc9dd4c5ddfd5afcc54f0ff0f1ea9d0497c, PoW=000001a610a417082bff4697d50cbc611af4c1fa75b8ee8363c4e83526cbbd63, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=df5d4cddc97c45da161f81032af08c18a6b7caecf0fb13d416108d61872cb618, nTime=1422700501, nBits=1e0ffff0, nNonce=2085212329, vtx=1)
+2015-04-20 04:01:08   CTransaction(hash=df5d4cddc97c45da161f81032af08c18a6b7caecf0fb13d416108d61872cb618, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01040d4d74676f7820697320646f776e)
+    CTxOut(nValue=50.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
+  vMerkleTree: df5d4cddc97c45da161f81032af08c18a6b7caecf0fb13d416108d61872cb618 
+2015-04-20 04:01:08 Pre-allocating up to position 0x1000000 in blk00000.dat
+2015-04-20 04:01:08 SetBestChain: new best=bcfd1c15132d4c71f37961f443eef2d87707e79fcf030bf3d6a24d9938888e7c  height=0  log2_work=20.000022  tx=1  date=2015-01-31 10:35:01 progress=0.000000
+2015-04-20 04:01:08 init message: Verifying blocks...
+2015-04-20 04:01:08  block index              76ms
+2015-04-20 04:01:08 init message: Loading wallet...
+2015-04-20 04:01:09 nFileVersion = 80602
+2015-04-20 04:01:09 Performing wallet upgrade to 60000
+2015-04-20 04:01:11 keypool added key 1, size=1
+2015-04-20 04:01:11 keypool added key 2, size=2
+2015-04-20 04:01:11 keypool added key 3, size=3
+2015-04-20 04:01:11 keypool added key 4, size=4
+2015-04-20 04:01:11 keypool added key 5, size=5
+2015-04-20 04:01:11 keypool added key 6, size=6
+2015-04-20 04:01:11 keypool added key 7, size=7
+2015-04-20 04:01:12 keypool added key 8, size=8
+2015-04-20 04:01:12 keypool added key 9, size=9
+2015-04-20 04:01:12 keypool added key 10, size=10
+2015-04-20 04:01:12 keypool added key 11, size=11
+2015-04-20 04:01:12 keypool added key 12, size=12
+2015-04-20 04:01:12 keypool added key 13, size=13
+2015-04-20 04:01:12 keypool added key 14, size=14
+2015-04-20 04:01:12 keypool added key 15, size=15
+2015-04-20 04:01:12 keypool added key 16, size=16
+2015-04-20 04:01:12 keypool added key 17, size=17
+2015-04-20 04:01:12 keypool added key 18, size=18
+2015-04-20 04:01:12 keypool added key 19, size=19
+2015-04-20 04:01:12 keypool added key 20, size=20
+2015-04-20 04:01:12 keypool added key 21, size=21
+2015-04-20 04:01:13 keypool added key 22, size=22
+2015-04-20 04:01:13 keypool added key 23, size=23
+2015-04-20 04:01:13 keypool added key 24, size=24
+2015-04-20 04:01:13 keypool added key 25, size=25
+2015-04-20 04:01:13 keypool added key 26, size=26
+2015-04-20 04:01:13 keypool added key 27, size=27
+2015-04-20 04:01:13 keypool added key 28, size=28
+2015-04-20 04:01:13 keypool added key 29, size=29
+2015-04-20 04:01:13 keypool added key 30, size=30
+2015-04-20 04:01:13 keypool added key 31, size=31
+2015-04-20 04:01:13 keypool added key 32, size=32
+2015-04-20 04:01:13 keypool added key 33, size=33
+2015-04-20 04:01:13 keypool added key 34, size=34
+2015-04-20 04:01:14 keypool added key 35, size=35
+2015-04-20 04:01:14 keypool added key 36, size=36
+2015-04-20 04:01:14 keypool added key 37, size=37
+2015-04-20 04:01:14 keypool added key 38, size=38
+2015-04-20 04:01:14 keypool added key 39, size=39
+2015-04-20 04:01:14 keypool added key 40, size=40
+2015-04-20 04:01:14 keypool added key 41, size=41
+2015-04-20 04:01:14 keypool added key 42, size=42
+2015-04-20 04:01:14 keypool added key 43, size=43
+2015-04-20 04:01:15 keypool added key 44, size=44
+2015-04-20 04:01:15 keypool added key 45, size=45
+2015-04-20 04:01:15 keypool added key 46, size=46
+2015-04-20 04:01:15 keypool added key 47, size=47
+2015-04-20 04:01:15 keypool added key 48, size=48
+2015-04-20 04:01:15 keypool added key 49, size=49
+2015-04-20 04:01:15 keypool added key 50, size=50
+2015-04-20 04:01:16 keypool added key 51, size=51
+2015-04-20 04:01:16 keypool added key 52, size=52
+2015-04-20 04:01:16 keypool added key 53, size=53
+2015-04-20 04:01:16 keypool added key 54, size=54
+2015-04-20 04:01:16 keypool added key 55, size=55
+2015-04-20 04:01:16 keypool added key 56, size=56
+2015-04-20 04:01:16 keypool added key 57, size=57
+2015-04-20 04:01:16 keypool added key 58, size=58
+2015-04-20 04:01:16 keypool added key 59, size=59
+2015-04-20 04:01:16 keypool added key 60, size=60
+2015-04-20 04:01:17 keypool added key 61, size=61
+2015-04-20 04:01:17 keypool added key 62, size=62
+2015-04-20 04:01:17 keypool added key 63, size=63
+2015-04-20 04:01:17 keypool added key 64, size=64
+2015-04-20 04:01:17 keypool added key 65, size=65
+2015-04-20 04:01:17 keypool added key 66, size=66
+2015-04-20 04:01:17 keypool added key 67, size=67
+2015-04-20 04:01:17 keypool added key 68, size=68
+2015-04-20 04:01:17 keypool added key 69, size=69
+2015-04-20 04:01:17 keypool added key 70, size=70
+2015-04-20 04:01:17 keypool added key 71, size=71
+2015-04-20 04:01:17 keypool added key 72, size=72
+2015-04-20 04:01:17 keypool added key 73, size=73
+2015-04-20 04:01:18 keypool added key 74, size=74
+2015-04-20 04:01:18 keypool added key 75, size=75
+2015-04-20 04:01:18 keypool added key 76, size=76
+2015-04-20 04:01:18 keypool added key 77, size=77
+2015-04-20 04:01:18 keypool added key 78, size=78
+2015-04-20 04:01:18 keypool added key 79, size=79
+2015-04-20 04:01:18 keypool added key 80, size=80
+2015-04-20 04:01:18 keypool added key 81, size=81
+2015-04-20 04:01:18 keypool added key 82, size=82
+2015-04-20 04:01:18 keypool added key 83, size=83
+2015-04-20 04:01:18 keypool added key 84, size=84
+2015-04-20 04:01:18 keypool added key 85, size=85
+2015-04-20 04:01:18 keypool added key 86, size=86
+2015-04-20 04:01:19 keypool added key 87, size=87
+2015-04-20 04:01:19 keypool added key 88, size=88
+2015-04-20 04:01:19 keypool added key 89, size=89
+2015-04-20 04:01:19 keypool added key 90, size=90
+2015-04-20 04:01:19 keypool added key 91, size=91
+2015-04-20 04:01:19 keypool added key 92, size=92
+2015-04-20 04:01:19 keypool added key 93, size=93
+2015-04-20 04:01:20 keypool added key 94, size=94
+2015-04-20 04:01:20 keypool added key 95, size=95
+2015-04-20 04:01:20 keypool added key 96, size=96
+2015-04-20 04:01:20 keypool added key 97, size=97
+2015-04-20 04:01:20 keypool added key 98, size=98
+2015-04-20 04:01:20 keypool added key 99, size=99
+2015-04-20 04:01:20 keypool added key 100, size=100
+2015-04-20 04:01:20 keypool added key 101, size=101
+2015-04-20 04:01:20 keypool reserve 1
+2015-04-20 04:01:20 keypool keep 1
+2015-04-20 04:01:20  wallet                12429ms
+2015-04-20 04:01:20 init message: Loading addresses...
+2015-04-20 04:01:20 ERROR: CAddrman::Read() : open failed
+2015-04-20 04:01:20 Invalid or missing peers.dat; recreating
+2015-04-20 04:01:20 Loaded 0 addresses from peers.dat  0ms
+2015-04-20 04:01:20 mapBlockIndex.size() = 1
+2015-04-20 04:01:20 nBestHeight = 0
+2015-04-20 04:01:20 setKeyPool.size() = 100
+2015-04-20 04:01:20 mapWallet.size() = 0
+2015-04-20 04:01:20 mapAddressBook.size() = 1
+2015-04-20 04:01:21 dnsseed thread start
+2015-04-20 04:01:21 Loading addresses from DNS seeds (could take a while)
+2015-04-20 04:01:21 0 addresses found from DNS seeds
+2015-04-20 04:01:21 dnsseed thread exit
+2015-04-20 04:01:21 net thread start
+2015-04-20 04:01:21 opencon thread start
+2015-04-20 04:01:21 dumpaddr thread start
+2015-04-20 04:01:21 addcon thread start
+2015-04-20 04:01:21 msghand thread start
+2015-04-20 04:01:21 init message: Done loading
+2015-04-20 04:01:21 trying connection 52.16.23.106:11085 lastseen=369306.2hrs
+2015-04-20 04:01:21 refreshWallet
+2015-04-20 04:01:21 connected 52.16.23.106:11085
+2015-04-20 04:01:21 send version message: version 70002, blocks=0, us=0.0.0.0:0, them=52.16.23.106:11085, peer=52.16.23.106:11085
+2015-04-20 04:01:21 Added time data, samples 2, offset +10 (+0 minutes)
+2015-04-20 04:01:21 receive version message: /Satoshi:0.8.6.2/: version 70002, blocks=0, us=168.30.128.198:59997, them=52.16.23.106:11085, peer=52.16.23.106:11085
+2015-04-20 04:01:21 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2015-04-20 04:01:22 GetMyExternalIP() received [168.30.128.198] 168.30.128.198:0
+2015-04-20 04:01:22 GetMyExternalIP() returned 168.30.128.198
+2015-04-20 04:01:22 AddLocal(168.30.128.198:11085,4)
+2015-04-20 04:01:30 dumpaddr thread stop
+2015-04-20 04:01:30 opencon thread interrupt
+2015-04-20 04:01:30 addcon thread interrupt
+2015-04-20 04:01:30 msghand thread interrupt
+2015-04-20 04:01:30 net thread interrupt
+2015-04-20 04:01:30 Shutdown : In progress...
+2015-04-20 04:01:30 Flush(false)
+2015-04-20 04:01:30 wallet.dat refcount=0
+2015-04-20 04:01:30 wallet.dat checkpoint
+2015-04-20 04:01:30 wallet.dat detach
+2015-04-20 04:01:30 wallet.dat closed
+2015-04-20 04:01:30 DBFlush(false) ended              82ms
+2015-04-20 04:01:30 StopNode()
+2015-04-20 04:01:30 Flushed 0 addresses to peers.dat  30ms
+2015-04-20 04:01:30 Committing 0 changed transactions to coin database...
+2015-04-20 04:01:30 Flush(true)
+2015-04-20 04:01:30 wallet.dat refcount=0
+2015-04-20 04:01:30 wallet.dat checkpoint
+2015-04-20 04:01:30 wallet.dat detach
+2015-04-20 04:01:30 wallet.dat closed
+2015-04-20 04:01:30 DBFlush(true) ended              82ms
+2015-04-20 04:01:30 Shutdown : done
+2015-04-23 06:03:24 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2015-04-23 06:03:24 NightHawkCoin version v0.8.6.2-unk-beta (Feb 24 2014, 02:03:35)
+2015-04-23 06:03:24 Using OpenSSL version OpenSSL 1.0.1g 7 Apr 2014
+2015-04-23 06:03:24 Default data directory .
+2015-04-23 06:03:24 Using data directory .
+2015-04-23 06:03:24 Using at most 125 connections (2048 file descriptors available)
+2015-04-23 06:03:24 Using 4 threads for script verification
+2015-04-23 06:03:24 init message: Verifying wallet...
+2015-04-23 06:03:24 dbenv.open LogDir=.\database ErrorFile=.\db.log
+2015-04-23 06:03:24 Bound to [::]:11085
+2015-04-23 06:03:24 Bound to 0.0.0.0:11085
+2015-04-23 06:03:24 init message: Loading block index...
+2015-04-23 06:03:24 Opening LevelDB in .\blocks\index
+2015-04-23 06:03:24 Opened LevelDB successfully
+2015-04-23 06:03:24 Opening LevelDB in .\chainstate
+2015-04-23 06:03:24 Opened LevelDB successfully
+2015-04-23 06:03:24 LoadBlockIndexDB(): last block file = 0
+2015-04-23 06:03:24 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=1, size=237, heights=0...0, time=2015-01-31...2015-01-31)
+2015-04-23 06:03:24 LoadBlockIndexDB(): transaction index disabled
+2015-04-23 06:03:24 LoadBlockIndexDB(): hashBestChain=bcfd1c15132d4c71f37961f443eef2d87707e79fcf030bf3d6a24d9938888e7c  height=0 date=2015-01-31 10:35:01
+2015-04-23 06:03:24 init message: Verifying blocks...
+2015-04-23 06:03:24  block index             360ms
+2015-04-23 06:03:24 init message: Loading wallet...
+2015-04-23 06:03:24 nFileVersion = 80602
+2015-04-23 06:03:25  wallet                  320ms
+2015-04-23 06:03:25 init message: Loading addresses...
+2015-04-23 06:03:25 Loaded 0 addresses from peers.dat  20ms
+2015-04-23 06:03:27 mapBlockIndex.size() = 1
+2015-04-23 06:03:27 nBestHeight = 0
+2015-04-23 06:03:27 setKeyPool.size() = 100
+2015-04-23 06:03:27 mapWallet.size() = 0
+2015-04-23 06:03:27 mapAddressBook.size() = 1
+2015-04-23 06:03:27 dnsseed thread start
+2015-04-23 06:03:27 msghand thread start
+2015-04-23 06:03:27 addcon thread start
+2015-04-23 06:03:27 opencon thread start
+2015-04-23 06:03:27 Loading addresses from DNS seeds (could take a while)
+2015-04-23 06:03:27 0 addresses found from DNS seeds
+2015-04-23 06:03:27 dnsseed thread exit
+2015-04-23 06:03:27 trying connection 52.16.23.106:11085 lastseen=369380.3hrs
+2015-04-23 06:03:27 init message: Done loading
+2015-04-23 06:03:27 net thread start
+2015-04-23 06:03:27 dumpaddr thread start
+2015-04-23 06:03:27 refreshWallet
+2015-04-23 06:03:27 connected 52.16.23.106:11085
+2015-04-23 06:03:27 send version message: version 70002, blocks=0, us=0.0.0.0:0, them=52.16.23.106:11085, peer=52.16.23.106:11085
+2015-04-23 06:03:27 Added time data, samples 2, offset +12 (+0 minutes)
+2015-04-23 06:03:27 receive version message: /Satoshi:0.8.6.2/: version 70002, blocks=0, us=168.30.128.198:38976, them=52.16.23.106:11085, peer=52.16.23.106:11085
+2015-04-23 06:03:28 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2015-04-23 06:03:28 GetMyExternalIP() received [168.30.128.198] 168.30.128.198:0
+2015-04-23 06:03:28 GetMyExternalIP() returned 168.30.128.198
+2015-04-23 06:03:28 AddLocal(168.30.128.198:11085,4)
+2015-04-23 06:03:59 dumpaddr thread stop
+2015-04-23 06:03:59 opencon thread interrupt
+2015-04-23 06:03:59 net thread interrupt
+2015-04-23 06:03:59 msghand thread interrupt
+2015-04-23 06:03:59 addcon thread interrupt
+2015-04-23 06:03:59 Shutdown : In progress...
+2015-04-23 06:03:59 Flush(false)
+2015-04-23 06:03:59 wallet.dat refcount=0
+2015-04-23 06:03:59 wallet.dat checkpoint
+2015-04-23 06:03:59 wallet.dat detach
+2015-04-23 06:03:59 wallet.dat closed
+2015-04-23 06:03:59 DBFlush(false) ended              70ms
+2015-04-23 06:03:59 StopNode()
+2015-04-23 06:03:59 Flushed 0 addresses to peers.dat  20ms
+2015-04-23 06:03:59 Committing 0 changed transactions to coin database...
+2015-04-23 06:03:59 Flush(true)
+2015-04-23 06:03:59 wallet.dat refcount=0
+2015-04-23 06:04:00 wallet.dat checkpoint
+2015-04-23 06:04:00 wallet.dat detach
+2015-04-23 06:04:00 wallet.dat closed
+2015-04-23 06:04:00 DBFlush(true) ended             170ms
+2015-04-23 06:04:00 Shutdown : done
+2015-04-23 06:06:20 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2015-04-23 06:06:20 NightHawkCoin version v0.8.6.2-unk-beta (Feb 24 2014, 02:03:35)
+2015-04-23 06:06:20 Using OpenSSL version OpenSSL 1.0.1g 7 Apr 2014
+2015-04-23 06:06:20 Default data directory .
+2015-04-23 06:06:20 Using data directory .
+2015-04-23 06:06:20 Using at most 125 connections (2048 file descriptors available)
+2015-04-23 06:06:20 Using 4 threads for script verification
+2015-04-23 06:06:20 init message: Verifying wallet...
+2015-04-23 06:06:20 dbenv.open LogDir=.\database ErrorFile=.\db.log
+2015-04-23 06:06:20 Bound to [::]:11085
+2015-04-23 06:06:20 Bound to 0.0.0.0:11085
+2015-04-23 06:06:20 init message: Loading block index...
+2015-04-23 06:06:20 Opening LevelDB in .\blocks\index
+2015-04-23 06:06:20 Opened LevelDB successfully
+2015-04-23 06:06:20 Opening LevelDB in .\chainstate
+2015-04-23 06:06:20 Opened LevelDB successfully
+2015-04-23 06:06:20 LoadBlockIndexDB(): last block file = 0
+2015-04-23 06:06:20 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=1, size=237, heights=0...0, time=2015-01-31...2015-01-31)
+2015-04-23 06:06:20 LoadBlockIndexDB(): transaction index disabled
+2015-04-23 06:06:20 LoadBlockIndexDB(): hashBestChain=bcfd1c15132d4c71f37961f443eef2d87707e79fcf030bf3d6a24d9938888e7c  height=0 date=2015-01-31 10:35:01
+2015-04-23 06:06:20 init message: Verifying blocks...
+2015-04-23 06:06:20  block index              28ms
+2015-04-23 06:06:20 init message: Loading wallet...
+2015-04-23 06:06:20 nFileVersion = 80602
+2015-04-23 06:06:20  wallet                  318ms
+2015-04-23 06:06:20 init message: Loading addresses...
+2015-04-23 06:06:20 Loaded 0 addresses from peers.dat  0ms
+2015-04-23 06:06:22 mapBlockIndex.size() = 1
+2015-04-23 06:06:22 nBestHeight = 0
+2015-04-23 06:06:22 setKeyPool.size() = 100
+2015-04-23 06:06:22 mapWallet.size() = 0
+2015-04-23 06:06:22 mapAddressBook.size() = 1
+2015-04-23 06:06:22 dnsseed thread start
+2015-04-23 06:06:22 Loading addresses from DNS seeds (could take a while)
+2015-04-23 06:06:22 0 addresses found from DNS seeds
+2015-04-23 06:06:22 dnsseed thread exit
+2015-04-23 06:06:22 dumpaddr thread start
+2015-04-23 06:06:22 opencon thread start
+2015-04-23 06:06:22 net thread start
+2015-04-23 06:06:22 init message: Done loading
+2015-04-23 06:06:22 addcon thread start
+2015-04-23 06:06:22 msghand thread start
+2015-04-23 06:06:22 trying connection 52.16.23.106:11085 lastseen=369380.3hrs
+2015-04-23 06:06:22 refreshWallet
+2015-04-23 06:06:22 connected 52.16.23.106:11085
+2015-04-23 06:06:22 send version message: version 70002, blocks=0, us=0.0.0.0:0, them=52.16.23.106:11085, peer=52.16.23.106:11085
+2015-04-23 06:06:22 GetMyExternalIP() received [168.30.128.198] 168.30.128.198:0
+2015-04-23 06:06:22 GetMyExternalIP() returned 168.30.128.198
+2015-04-23 06:06:22 AddLocal(168.30.128.198:11085,4)
+2015-04-23 06:06:22 Added time data, samples 2, offset +11 (+0 minutes)
+2015-04-23 06:06:22 receive version message: /Satoshi:0.8.6.2/: version 70002, blocks=0, us=168.30.128.198:24694, them=52.16.23.106:11085, peer=52.16.23.106:11085
+2015-04-23 06:06:22 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2015-04-23 06:07:14 NightHawkCoinMiner:
+2015-04-23 06:07:14 NightHawkCoinMiner:
+2015-04-23 06:07:14 NightHawkCoinMiner:
+2015-04-23 06:07:14 NightHawkCoinMiner:
+2015-04-23 06:07:14 keypool added key 102, size=101
+2015-04-23 06:07:15 keypool reserve 2
+2015-04-23 06:07:15 CreateNewBlock(): total size 1000
+2015-04-23 06:07:15 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:07:15 keypool added key 103, size=101
+2015-04-23 06:07:15 keypool reserve 3
+2015-04-23 06:07:15 CreateNewBlock(): total size 1000
+2015-04-23 06:07:15 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:07:15 keypool added key 104, size=101
+2015-04-23 06:07:15 keypool reserve 4
+2015-04-23 06:07:15 CreateNewBlock(): total size 1000
+2015-04-23 06:07:15 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:07:15 keypool added key 105, size=101
+2015-04-23 06:07:15 keypool reserve 5
+2015-04-23 06:07:15 CreateNewBlock(): total size 1000
+2015-04-23 06:07:15 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:07:17 Flushing wallet.dat
+2015-04-23 06:07:17 Flushed wallet.dat 63ms
+2015-04-23 06:07:19 hashmeter      4 khash/s
+2015-04-23 06:07:23 NightHawkCoinMiner:
+2015-04-23 06:07:23 proof-of-work found  
+  hash: 00000cc8fa5eb27fad1b378bb675c55db0915e5946b0db03610cef4dc759986a  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2015-04-23 06:07:23 CBlock(hash=0f65b976b71a1d7e28a84452e51dabdf710eb4525d787ddb551d0e52d57f3aee, input=020000007c8e8838994da2d6f30b03cf9fe70777d8f2ee43f46179f3714c2d13151cfdbc9e65079d2729e1460d46d3ff369761756fd04314f3e3e7b9b07bd118a975d9ba1a8c3855f0ff0f1e3e200000, PoW=00000cc8fa5eb27fad1b378bb675c55db0915e5946b0db03610cef4dc759986a, ver=2, hashPrevBlock=bcfd1c15132d4c71f37961f443eef2d87707e79fcf030bf3d6a24d9938888e7c, hashMerkleRoot=bad975a918d17bb0b9e7e3f31443d06f75619736ffd3460d46e129279d07659e, nTime=1429769242, nBits=1e0ffff0, nNonce=8254, vtx=1)
+2015-04-23 06:07:23   CTransaction(hash=bad975a918d17bb0b9e7e3f31443d06f75619736ffd3460d46e129279d07659e, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 510101062f503253482f)
+    CTxOut(nValue=25.00000000, scriptPubKey=03536c47778a5dc0b8385b1d129ea0)
+  vMerkleTree: bad975a918d17bb0b9e7e3f31443d06f75619736ffd3460d46e129279d07659e 
+2015-04-23 06:07:23 generated 25.00
+2015-04-23 06:07:23 keypool keep 2
+2015-04-23 06:07:23 Pre-allocating up to position 0x100000 in rev00000.dat
+2015-04-23 06:07:23 AddToWallet bad975a918d17bb0b9e7e3f31443d06f75619736ffd3460d46e129279d07659e  new
+2015-04-23 06:07:23 NotifyTransactionChanged bad975a918d17bb0b9e7e3f31443d06f75619736ffd3460d46e129279d07659e status=0
+2015-04-23 06:07:23 updateWallet bad975a918d17bb0b9e7e3f31443d06f75619736ffd3460d46e129279d07659e 0
+2015-04-23 06:07:23    inWallet=1 inModel=0 Index=0-0 showTransaction=0 derivedStatus=0
+2015-04-23 06:07:23 Committing 1 changed transactions to coin database...
+2015-04-23 06:07:23 SetBestChain: new best=0f65b976b71a1d7e28a84452e51dabdf710eb4525d787ddb551d0e52d57f3aee  height=1  log2_work=21.000022  tx=2  date=2015-04-23 06:07:22 progress=0.000000
+2015-04-23 06:07:23 ProcessBlock: ACCEPTED
+2015-04-23 06:07:23 keypool added key 106, size=101
+2015-04-23 06:07:23 CreateNewBlock(): total size 1000
+2015-04-23 06:07:23 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:07:23 keypool reserve 6
+2015-04-23 06:07:23 CreateNewBlock(): total size 1000
+2015-04-23 06:07:23 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:07:23 CreateNewBlock(): total size 1000
+2015-04-23 06:07:23 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:07:23 CreateNewBlock(): total size 1000
+2015-04-23 06:07:23 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:07:23 received getdata for: block 0f65b976b71a1d7e28a84452e51dabdf710eb4525d787ddb551d0e52d57f3aee
+2015-04-23 06:07:25 Flushing wallet.dat
+2015-04-23 06:07:25 Flushed wallet.dat 73ms
+2015-04-23 06:08:46 NightHawkCoinMiner:
+2015-04-23 06:08:46 proof-of-work found  
+  hash: 00000f88f96b019a337da303dbc40ff19e0de50459da8af146c12a09de368404  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2015-04-23 06:08:46 CBlock(hash=2fd3ac985d40d78282f7d65bf75d616a5e0860ad96a0b1078692db2fc8c75a08, input=02000000ee3a7fd5520e1d55db7d785d52b40e71dfab1de55244a8287e1d1ab776b9650f4ee5eec63fb49964ff47ccb47ab7d4bfa25f5e3c62f3d512e027b7b1c00f34326e8c3855f0ff0f1ea64c0100, PoW=00000f88f96b019a337da303dbc40ff19e0de50459da8af146c12a09de368404, ver=2, hashPrevBlock=0f65b976b71a1d7e28a84452e51dabdf710eb4525d787ddb551d0e52d57f3aee, hashMerkleRoot=32340fc0b1b727e012d5f3623c5e5fa2bfd4b77ab4cc47ff6499b43fc6eee54e, nTime=1429769326, nBits=1e0ffff0, nNonce=85158, vtx=1)
+2015-04-23 06:08:46   CTransaction(hash=32340fc0b1b727e012d5f3623c5e5fa2bfd4b77ab4cc47ff6499b43fc6eee54e, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 520102062f503253482f)
+    CTxOut(nValue=25.00000000, scriptPubKey=024a7e32d81e4d8155ab2b04be44a4)
+  vMerkleTree: 32340fc0b1b727e012d5f3623c5e5fa2bfd4b77ab4cc47ff6499b43fc6eee54e 
+2015-04-23 06:08:46 generated 25.00
+2015-04-23 06:08:46 keypool keep 4
+2015-04-23 06:08:47 AddToWallet 32340fc0b1b727e012d5f3623c5e5fa2bfd4b77ab4cc47ff6499b43fc6eee54e  new
+2015-04-23 06:08:47 NotifyTransactionChanged 32340fc0b1b727e012d5f3623c5e5fa2bfd4b77ab4cc47ff6499b43fc6eee54e status=0
+2015-04-23 06:08:47 updateWallet 32340fc0b1b727e012d5f3623c5e5fa2bfd4b77ab4cc47ff6499b43fc6eee54e 0
+2015-04-23 06:08:47    inWallet=1 inModel=0 Index=0-0 showTransaction=0 derivedStatus=0
+2015-04-23 06:08:47 Committing 1 changed transactions to coin database...
+2015-04-23 06:08:47 SetBestChain: new best=2fd3ac985d40d78282f7d65bf75d616a5e0860ad96a0b1078692db2fc8c75a08  height=2  log2_work=21.584985  tx=3  date=2015-04-23 06:08:46 progress=0.000000
+2015-04-23 06:08:47 NotifyTransactionChanged bad975a918d17bb0b9e7e3f31443d06f75619736ffd3460d46e129279d07659e status=1
+2015-04-23 06:08:47 updateWallet bad975a918d17bb0b9e7e3f31443d06f75619736ffd3460d46e129279d07659e 1
+2015-04-23 06:08:47    inWallet=1 inModel=0 Index=0-0 showTransaction=1 derivedStatus=0
+2015-04-23 06:08:47 ProcessBlock: ACCEPTED
+2015-04-23 06:08:47 CreateNewBlock(): total size 1000
+2015-04-23 06:08:47 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:08:47 CreateNewBlock(): total size 1000
+2015-04-23 06:08:47 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:08:47 CreateNewBlock(): total size 1000
+2015-04-23 06:08:47 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:08:47 received getdata for: block 2fd3ac985d40d78282f7d65bf75d616a5e0860ad96a0b1078692db2fc8c75a08
+2015-04-23 06:08:47 keypool added key 107, size=101
+2015-04-23 06:08:47 keypool reserve 7
+2015-04-23 06:08:47 CreateNewBlock(): total size 1000
+2015-04-23 06:08:47 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:08:49 Flushing wallet.dat
+2015-04-23 06:08:49 Flushed wallet.dat 72ms
+2015-04-23 06:12:12 NightHawkCoinMiner:
+2015-04-23 06:12:12 proof-of-work found  
+  hash: 00000c132395421fde44b8eac61263b4e57f69f72e9de55563af81cf98858e26  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2015-04-23 06:12:12 CBlock(hash=357d1deb5f71bafadda897fbb7b8f082caf9de89d24018d028eaf9c17a7ac2ac, input=02000000085ac7c82fdb928607b1a096ad60085e6a615df75bd6f78282d7405d98acd32fae5459bb71c05a2bff8145ba4f6cc4e3a0ab50d6ff919f54a576649d834193213b8d3855f0ff0f1e68420300, PoW=00000c132395421fde44b8eac61263b4e57f69f72e9de55563af81cf98858e26, ver=2, hashPrevBlock=2fd3ac985d40d78282f7d65bf75d616a5e0860ad96a0b1078692db2fc8c75a08, hashMerkleRoot=219341839d6476a5549f91ffd650aba0e3c46c4fba4581ff2b5ac071bb5954ae, nTime=1429769531, nBits=1e0ffff0, nNonce=213608, vtx=1)
+2015-04-23 06:12:12   CTransaction(hash=219341839d6476a5549f91ffd650aba0e3c46c4fba4581ff2b5ac071bb5954ae, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 530103062f503253482f)
+    CTxOut(nValue=25.00000000, scriptPubKey=03a1a0db460f829ed6bab7c0cf3104)
+  vMerkleTree: 219341839d6476a5549f91ffd650aba0e3c46c4fba4581ff2b5ac071bb5954ae 
+2015-04-23 06:12:12 generated 25.00
+2015-04-23 06:12:12 keypool keep 7
+2015-04-23 06:12:12 AddToWallet 219341839d6476a5549f91ffd650aba0e3c46c4fba4581ff2b5ac071bb5954ae  new
+2015-04-23 06:12:12 NotifyTransactionChanged 219341839d6476a5549f91ffd650aba0e3c46c4fba4581ff2b5ac071bb5954ae status=0
+2015-04-23 06:12:12 updateWallet 219341839d6476a5549f91ffd650aba0e3c46c4fba4581ff2b5ac071bb5954ae 0
+2015-04-23 06:12:12    inWallet=1 inModel=0 Index=0-0 showTransaction=0 derivedStatus=0
+2015-04-23 06:12:12 Committing 1 changed transactions to coin database...
+2015-04-23 06:12:12 SetBestChain: new best=357d1deb5f71bafadda897fbb7b8f082caf9de89d24018d028eaf9c17a7ac2ac  height=3  log2_work=22.000022  tx=4  date=2015-04-23 06:12:11 progress=0.000000
+2015-04-23 06:12:12 NotifyTransactionChanged 32340fc0b1b727e012d5f3623c5e5fa2bfd4b77ab4cc47ff6499b43fc6eee54e status=1
+2015-04-23 06:12:12 updateWallet 32340fc0b1b727e012d5f3623c5e5fa2bfd4b77ab4cc47ff6499b43fc6eee54e 1
+2015-04-23 06:12:12    inWallet=1 inModel=0 Index=0-0 showTransaction=1 derivedStatus=0
+2015-04-23 06:12:12 ProcessBlock: ACCEPTED
+2015-04-23 06:12:12 CreateNewBlock(): total size 1000
+2015-04-23 06:12:12 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:12:12 CreateNewBlock(): total size 1000
+2015-04-23 06:12:12 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:12:12 CreateNewBlock(): total size 1000
+2015-04-23 06:12:12 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:12:12 keypool added key 108, size=101
+2015-04-23 06:12:12 keypool reserve 8
+2015-04-23 06:12:12 CreateNewBlock(): total size 1000
+2015-04-23 06:12:12 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:12:12 received getdata for: block 357d1deb5f71bafadda897fbb7b8f082caf9de89d24018d028eaf9c17a7ac2ac
+2015-04-23 06:12:14 Flushing wallet.dat
+2015-04-23 06:12:14 Flushed wallet.dat 87ms
+2015-04-23 06:21:22 Flushed 0 addresses to peers.dat  21ms
+2015-04-23 06:23:42 NightHawkCoinMiner:
+2015-04-23 06:23:42 proof-of-work found  
+  hash: 000001be6817c455de170634a75125408dc0b0a4c14021b80c768fa8dabebfdb  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2015-04-23 06:23:42 CBlock(hash=9ae1715111a080bd1d4cc149e790608da402001378ecfa86df367c3187ffd667, input=02000000acc27a7ac1f9ea28d01840d289def9ca82f0b8b7fb97a8ddfaba715feb1d7d35227910e91081694ddbf5369a81793f398426cdc1f1e076782cfb0c9c30b17daced8f3855f0ff0f1e8def0a00, PoW=000001be6817c455de170634a75125408dc0b0a4c14021b80c768fa8dabebfdb, ver=2, hashPrevBlock=357d1deb5f71bafadda897fbb7b8f082caf9de89d24018d028eaf9c17a7ac2ac, hashMerkleRoot=ac7db1309c0cfb2c7876e0f1c1cd2684393f79819a36f5db4d698110e9107922, nTime=1429770221, nBits=1e0ffff0, nNonce=716685, vtx=1)
+2015-04-23 06:23:42   CTransaction(hash=ac7db1309c0cfb2c7876e0f1c1cd2684393f79819a36f5db4d698110e9107922, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 540104062f503253482f)
+    CTxOut(nValue=25.00000000, scriptPubKey=0286df835ad022eb340a1303d77336)
+  vMerkleTree: ac7db1309c0cfb2c7876e0f1c1cd2684393f79819a36f5db4d698110e9107922 
+2015-04-23 06:23:42 generated 25.00
+2015-04-23 06:23:42 keypool keep 8
+2015-04-23 06:23:42 AddToWallet ac7db1309c0cfb2c7876e0f1c1cd2684393f79819a36f5db4d698110e9107922  new
+2015-04-23 06:23:42 NotifyTransactionChanged ac7db1309c0cfb2c7876e0f1c1cd2684393f79819a36f5db4d698110e9107922 status=0
+2015-04-23 06:23:42 updateWallet ac7db1309c0cfb2c7876e0f1c1cd2684393f79819a36f5db4d698110e9107922 0
+2015-04-23 06:23:42    inWallet=1 inModel=0 Index=1-1 showTransaction=0 derivedStatus=0
+2015-04-23 06:23:42 Committing 1 changed transactions to coin database...
+2015-04-23 06:23:42 SetBestChain: new best=9ae1715111a080bd1d4cc149e790608da402001378ecfa86df367c3187ffd667  height=4  log2_work=22.32195  tx=5  date=2015-04-23 06:23:41 progress=0.000000
+2015-04-23 06:23:42 NotifyTransactionChanged 219341839d6476a5549f91ffd650aba0e3c46c4fba4581ff2b5ac071bb5954ae status=1
+2015-04-23 06:23:42 updateWallet 219341839d6476a5549f91ffd650aba0e3c46c4fba4581ff2b5ac071bb5954ae 1
+2015-04-23 06:23:42    inWallet=1 inModel=0 Index=0-0 showTransaction=1 derivedStatus=0
+2015-04-23 06:23:42 ProcessBlock: ACCEPTED
+2015-04-23 06:23:42 CreateNewBlock(): total size 1000
+2015-04-23 06:23:42 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:23:42 CreateNewBlock(): total size 1000
+2015-04-23 06:23:42 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:23:42 CreateNewBlock(): total size 1000
+2015-04-23 06:23:42 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:23:42 received getdata for: block 9ae1715111a080bd1d4cc149e790608da402001378ecfa86df367c3187ffd667
+2015-04-23 06:23:43 keypool added key 109, size=101
+2015-04-23 06:23:43 keypool reserve 9
+2015-04-23 06:23:43 CreateNewBlock(): total size 1000
+2015-04-23 06:23:43 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:23:46 Flushing wallet.dat
+2015-04-23 06:23:46 Flushed wallet.dat 67ms
+2015-04-23 06:24:08 NotifyAddressBookChanged LezmPuhGSsb8CFA86Ux2SU837L5b3LAzVL Test address isMine=1 status=1
+2015-04-23 06:24:10 Flushing wallet.dat
+2015-04-23 06:24:10 Flushed wallet.dat 63ms
+2015-04-23 06:25:31 NightHawkCoinMiner:
+2015-04-23 06:25:31 proof-of-work found  
+  hash: 000009f483f57f250c698de65cc4516b13db8965ad2ad7cca3994d8fbe2f1889  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2015-04-23 06:25:31 CBlock(hash=023399ee4fe38647b1f646f3e1f812c5d78f35f49fcf48a5a6e5bf0f25997075, input=0200000067d6ff87317c36df86faec78130002a48d6090e749c14c1dbd80a0115171e19a22ae28e594d307936414c2492adb11ace9bd9beb5c954b3b9b8d6c7a9c1ad63a5b903855f0ff0f1e23bc0100, PoW=000009f483f57f250c698de65cc4516b13db8965ad2ad7cca3994d8fbe2f1889, ver=2, hashPrevBlock=9ae1715111a080bd1d4cc149e790608da402001378ecfa86df367c3187ffd667, hashMerkleRoot=3ad61a9c7a6c8d9b3b4b955ceb9bbde9ac11db2a49c214649307d394e528ae22, nTime=1429770331, nBits=1e0ffff0, nNonce=113699, vtx=1)
+2015-04-23 06:25:31   CTransaction(hash=3ad61a9c7a6c8d9b3b4b955ceb9bbde9ac11db2a49c214649307d394e528ae22, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 550101062f503253482f)
+    CTxOut(nValue=25.00000000, scriptPubKey=029053f29f677328c642e93d3978e4)
+  vMerkleTree: 3ad61a9c7a6c8d9b3b4b955ceb9bbde9ac11db2a49c214649307d394e528ae22 
+2015-04-23 06:25:31 generated 25.00
+2015-04-23 06:25:31 keypool keep 6
+2015-04-23 06:25:32 AddToWallet 3ad61a9c7a6c8d9b3b4b955ceb9bbde9ac11db2a49c214649307d394e528ae22  new
+2015-04-23 06:25:32 NotifyTransactionChanged 3ad61a9c7a6c8d9b3b4b955ceb9bbde9ac11db2a49c214649307d394e528ae22 status=0
+2015-04-23 06:25:32 updateWallet 3ad61a9c7a6c8d9b3b4b955ceb9bbde9ac11db2a49c214649307d394e528ae22 0
+2015-04-23 06:25:32    inWallet=1 inModel=0 Index=2-2 showTransaction=0 derivedStatus=0
+2015-04-23 06:25:32 Committing 1 changed transactions to coin database...
+2015-04-23 06:25:32 SetBestChain: new best=023399ee4fe38647b1f646f3e1f812c5d78f35f49fcf48a5a6e5bf0f25997075  height=5  log2_work=22.584985  tx=6  date=2015-04-23 06:25:31 progress=0.000000
+2015-04-23 06:25:32 NotifyTransactionChanged ac7db1309c0cfb2c7876e0f1c1cd2684393f79819a36f5db4d698110e9107922 status=1
+2015-04-23 06:25:32 ProcessBlock: ACCEPTED
+2015-04-23 06:25:32 updateWallet ac7db1309c0cfb2c7876e0f1c1cd2684393f79819a36f5db4d698110e9107922 1
+2015-04-23 06:25:32    inWallet=1 inModel=0 Index=2-2 showTransaction=1 derivedStatus=0
+2015-04-23 06:25:32 CreateNewBlock(): total size 1000
+2015-04-23 06:25:32 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:25:32 CreateNewBlock(): total size 1000
+2015-04-23 06:25:32 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:25:32 keypool added key 110, size=101
+2015-04-23 06:25:32 keypool reserve 10
+2015-04-23 06:25:32 CreateNewBlock(): total size 1000
+2015-04-23 06:25:32 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:25:32 CreateNewBlock(): total size 1000
+2015-04-23 06:25:32 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:25:32 received getdata for: block 023399ee4fe38647b1f646f3e1f812c5d78f35f49fcf48a5a6e5bf0f25997075
+2015-04-23 06:25:34 Flushing wallet.dat
+2015-04-23 06:25:34 Flushed wallet.dat 81ms
+2015-04-23 06:32:27 dumpaddr thread stop
+2015-04-23 06:32:27 addcon thread interrupt
+2015-04-23 06:32:27 opencon thread interrupt
+2015-04-23 06:32:27 msghand thread interrupt
+2015-04-23 06:32:27 net thread interrupt
+2015-04-23 06:32:27 Shutdown : In progress...
+2015-04-23 06:32:27 Flush(false)
+2015-04-23 06:32:27 DBFlush(false) ended               0ms
+2015-04-23 06:32:27 StopNode()
+2015-04-23 06:32:27 Flushed 0 addresses to peers.dat  22ms
+2015-04-23 06:32:27 NightHawkCoinMiner terminated
+2015-04-23 06:32:27 keypool return 3
+2015-04-23 06:32:27 NightHawkCoinMiner terminated
+2015-04-23 06:32:27 keypool return 10
+2015-04-23 06:32:27 Committing 0 changed transactions to coin database...
+2015-04-23 06:32:27 Flush(true)
+2015-04-23 06:32:27 wallet.dat refcount=0
+2015-04-23 06:32:27 NightHawkCoinMiner terminated
+2015-04-23 06:32:27 keypool return 9
+2015-04-23 06:32:28 wallet.dat checkpoint
+2015-04-23 06:32:28 NightHawkCoinMiner terminated
+2015-04-23 06:32:28 keypool return 5
+2015-04-23 06:32:28 wallet.dat detach
+2015-04-23 06:32:28 wallet.dat closed
+2015-04-23 06:32:28 DBFlush(true) ended              75ms
+2015-04-23 06:32:28 Shutdown : done
+2015-04-23 06:46:03 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2015-04-23 06:46:03 NightHawkCoin version v0.8.6.2-unk-beta (Feb 24 2014, 02:03:35)
+2015-04-23 06:46:03 Using OpenSSL version OpenSSL 1.0.1g 7 Apr 2014
+2015-04-23 06:46:03 Default data directory .
+2015-04-23 06:46:03 Using data directory .
+2015-04-23 06:46:03 Using at most 125 connections (2048 file descriptors available)
+2015-04-23 06:46:03 Using 4 threads for script verification
+2015-04-23 06:46:03 init message: Verifying wallet...
+2015-04-23 06:46:03 dbenv.open LogDir=.\database ErrorFile=.\db.log
+2015-04-23 06:46:03 Bound to [::]:11085
+2015-04-23 06:46:03 Bound to 0.0.0.0:11085
+2015-04-23 06:46:03 init message: Loading block index...
+2015-04-23 06:46:03 Opening LevelDB in .\blocks\index
+2015-04-23 06:46:03 Opened LevelDB successfully
+2015-04-23 06:46:03 Opening LevelDB in .\chainstate
+2015-04-23 06:46:03 Opened LevelDB successfully
+2015-04-23 06:46:03 LoadBlockIndexDB(): last block file = 0
+2015-04-23 06:46:03 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=6, size=1207, heights=0...5, time=2015-01-31...2015-04-23)
+2015-04-23 06:46:03 LoadBlockIndexDB(): transaction index disabled
+2015-04-23 06:46:03 LoadBlockIndexDB(): hashBestChain=023399ee4fe38647b1f646f3e1f812c5d78f35f49fcf48a5a6e5bf0f25997075  height=5 date=2015-04-23 06:25:31
+2015-04-23 06:46:03 init message: Verifying blocks...
+2015-04-23 06:46:03 Verifying last 5 blocks at level 3
+2015-04-23 06:46:03 No coin database inconsistencies in last 5 blocks (5 transactions)
+2015-04-23 06:46:03  block index              30ms
+2015-04-23 06:46:03 init message: Loading wallet...
+2015-04-23 06:46:03 nFileVersion = 80602
+2015-04-23 06:46:03  wallet                  348ms
+2015-04-23 06:46:03 init message: Loading addresses...
+2015-04-23 06:46:03 Loaded 0 addresses from peers.dat  0ms
+2015-04-23 06:46:05 mapBlockIndex.size() = 6
+2015-04-23 06:46:05 nBestHeight = 5
+2015-04-23 06:46:05 setKeyPool.size() = 104
+2015-04-23 06:46:05 mapWallet.size() = 5
+2015-04-23 06:46:05 mapAddressBook.size() = 1
+2015-04-23 06:46:05 net thread start
+2015-04-23 06:46:05 opencon thread start
+2015-04-23 06:46:05 msghand thread start
+2015-04-23 06:46:05 dumpaddr thread start
+2015-04-23 06:46:05 addcon thread start
+2015-04-23 06:46:05 dnsseed thread start
+2015-04-23 06:46:05 Loading addresses from DNS seeds (could take a while)
+2015-04-23 06:46:05 0 addresses found from DNS seeds
+2015-04-23 06:46:05 dnsseed thread exit
+2015-04-23 06:46:05 trying connection 52.16.23.106:11085 lastseen=369381.0hrs
+2015-04-23 06:46:05 init message: Done loading
+2015-04-23 06:46:05 refreshWallet
+2015-04-23 06:46:05 connected 52.16.23.106:11085
+2015-04-23 06:46:05 send version message: version 70002, blocks=5, us=0.0.0.0:0, them=52.16.23.106:11085, peer=52.16.23.106:11085
+2015-04-23 06:46:05 Added time data, samples 2, offset +11 (+0 minutes)
+2015-04-23 06:46:05 receive version message: /Satoshi:0.8.6.2/: version 70002, blocks=5, us=168.30.128.198:51058, them=52.16.23.106:11085, peer=52.16.23.106:11085
+2015-04-23 06:46:05 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2015-04-23 06:46:05 GetMyExternalIP() received [168.30.128.198] 168.30.128.198:0
+2015-04-23 06:46:05 GetMyExternalIP() returned 168.30.128.198
+2015-04-23 06:46:05 AddLocal(168.30.128.198:11085,4)
+2015-04-23 06:49:41 NightHawkCoinMiner:
+2015-04-23 06:49:41 NightHawkCoinMiner:
+2015-04-23 06:49:41 NightHawkCoinMiner:
+2015-04-23 06:49:41 keypool reserve 3
+2015-04-23 06:49:41 NightHawkCoinMiner:
+2015-04-23 06:49:41 CreateNewBlock(): total size 1000
+2015-04-23 06:49:41 keypool reserve 5
+2015-04-23 06:49:41 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:49:41 CreateNewBlock(): total size 1000
+2015-04-23 06:49:41 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:49:41 keypool reserve 9
+2015-04-23 06:49:41 CreateNewBlock(): total size 1000
+2015-04-23 06:49:41 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:49:41 keypool reserve 10
+2015-04-23 06:49:41 CreateNewBlock(): total size 1000
+2015-04-23 06:49:41 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:49:45 hashmeter      4 khash/s
+2015-04-23 06:56:20 NightHawkCoinMiner:
+2015-04-23 06:56:20 proof-of-work found  
+  hash: 000009bb8e9c7920030416374295262b4a5d7b80deb04d0c934147ed4b1879f1  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2015-04-23 06:56:20 CBlock(hash=2a8063d85b139349408311de6b2cf551b0eaa88cdcd7c80004d6c87c440ef3f3, input=02000000757099250fbfe5a6a548cf9ff4358fd7c512f8e1f346f6b14786e34fee9933022629d11642aac14a087d1ed2cb441b8ee8ff8d6c08534f7c1bb15ae78840b3a694973855f0ff0f1e31340600, PoW=000009bb8e9c7920030416374295262b4a5d7b80deb04d0c934147ed4b1879f1, ver=2, hashPrevBlock=023399ee4fe38647b1f646f3e1f812c5d78f35f49fcf48a5a6e5bf0f25997075, hashMerkleRoot=a6b34088e75ab11b7c4f53086c8dffe88e1b44cbd21e7d084ac1aa4216d12926, nTime=1429772180, nBits=1e0ffff0, nNonce=406577, vtx=1)
+2015-04-23 06:56:20   CTransaction(hash=a6b34088e75ab11b7c4f53086c8dffe88e1b44cbd21e7d084ac1aa4216d12926, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 560101062f503253482f)
+    CTxOut(nValue=25.00000000, scriptPubKey=031061741026437607f8e3516f3352)
+  vMerkleTree: a6b34088e75ab11b7c4f53086c8dffe88e1b44cbd21e7d084ac1aa4216d12926 
+2015-04-23 06:56:20 generated 25.00
+2015-04-23 06:56:20 keypool keep 9
+2015-04-23 06:56:20 AddToWallet a6b34088e75ab11b7c4f53086c8dffe88e1b44cbd21e7d084ac1aa4216d12926  new
+2015-04-23 06:56:20 NotifyTransactionChanged a6b34088e75ab11b7c4f53086c8dffe88e1b44cbd21e7d084ac1aa4216d12926 status=0
+2015-04-23 06:56:20 updateWallet a6b34088e75ab11b7c4f53086c8dffe88e1b44cbd21e7d084ac1aa4216d12926 0
+2015-04-23 06:56:20    inWallet=1 inModel=0 Index=3-3 showTransaction=0 derivedStatus=0
+2015-04-23 06:56:20 Committing 6 changed transactions to coin database...
+2015-04-23 06:56:20 SetBestChain: new best=2a8063d85b139349408311de6b2cf551b0eaa88cdcd7c80004d6c87c440ef3f3  height=6  log2_work=22.807377  tx=7  date=2015-04-23 06:56:20 progress=0.000000
+2015-04-23 06:56:20 ProcessBlock: ACCEPTED
+2015-04-23 06:56:21 CreateNewBlock(): total size 1000
+2015-04-23 06:56:21 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:56:21 CreateNewBlock(): total size 1000
+2015-04-23 06:56:21 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:56:21 CreateNewBlock(): total size 1000
+2015-04-23 06:56:21 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:56:21 received getdata for: block 2a8063d85b139349408311de6b2cf551b0eaa88cdcd7c80004d6c87c440ef3f3
+2015-04-23 06:56:22 keypool added key 111, size=101
+2015-04-23 06:56:22 keypool reserve 11
+2015-04-23 06:56:22 CreateNewBlock(): total size 1000
+2015-04-23 06:56:22 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 06:56:24 Flushing wallet.dat
+2015-04-23 06:56:24 Flushed wallet.dat 83ms
+2015-04-23 07:00:44 NightHawkCoinMiner:
+2015-04-23 07:00:44 proof-of-work found  
+  hash: 000004395770026c0154f76b5ad947da7e2b1e699fc56746c310dd3808485de6  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2015-04-23 07:00:44 CBlock(hash=79cf79177518abdfffd6bc4e46b37ff5c726f353d2103aac9a41db3699a108b6, input=02000000f3f30e447cc8d60400c8d7dc8ca8eab051f52c6bde1183404993135bd863802a3149a4a58a2dc4a431a287abbd62c4d0afec47c6cb629e76d249526c7f129d009b983855f0ff0f1e721f0400, PoW=000004395770026c0154f76b5ad947da7e2b1e699fc56746c310dd3808485de6, ver=2, hashPrevBlock=2a8063d85b139349408311de6b2cf551b0eaa88cdcd7c80004d6c87c440ef3f3, hashMerkleRoot=009d127f6c5249d2769e62cbc647ecafd0c462bdab87a231a4c42d8aa5a44931, nTime=1429772443, nBits=1e0ffff0, nNonce=270194, vtx=1)
+2015-04-23 07:00:44   CTransaction(hash=009d127f6c5249d2769e62cbc647ecafd0c462bdab87a231a4c42d8aa5a44931, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 570102062f503253482f)
+    CTxOut(nValue=25.00000000, scriptPubKey=029accd4d76822a0e88002cab82ea9)
+  vMerkleTree: 009d127f6c5249d2769e62cbc647ecafd0c462bdab87a231a4c42d8aa5a44931 
+2015-04-23 07:00:44 generated 25.00
+2015-04-23 07:00:44 keypool keep 10
+2015-04-23 07:00:44 AddToWallet 009d127f6c5249d2769e62cbc647ecafd0c462bdab87a231a4c42d8aa5a44931  new
+2015-04-23 07:00:44 NotifyTransactionChanged 009d127f6c5249d2769e62cbc647ecafd0c462bdab87a231a4c42d8aa5a44931 status=0
+2015-04-23 07:00:44 updateWallet 009d127f6c5249d2769e62cbc647ecafd0c462bdab87a231a4c42d8aa5a44931 0
+2015-04-23 07:00:44    inWallet=1 inModel=0 Index=0-0 showTransaction=0 derivedStatus=0
+2015-04-23 07:00:44 Committing 1 changed transactions to coin database...
+2015-04-23 07:00:44 SetBestChain: new best=79cf79177518abdfffd6bc4e46b37ff5c726f353d2103aac9a41db3699a108b6  height=7  log2_work=23.000022  tx=8  date=2015-04-23 07:00:43 progress=0.000000
+2015-04-23 07:00:44 NotifyTransactionChanged a6b34088e75ab11b7c4f53086c8dffe88e1b44cbd21e7d084ac1aa4216d12926 status=1
+2015-04-23 07:00:44 ProcessBlock: ACCEPTED
+2015-04-23 07:00:44 updateWallet a6b34088e75ab11b7c4f53086c8dffe88e1b44cbd21e7d084ac1aa4216d12926 1
+2015-04-23 07:00:44 keypool added key 112, size=101
+2015-04-23 07:00:44 CreateNewBlock(): total size 1000
+2015-04-23 07:00:44 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:00:44 keypool reserve 12
+2015-04-23 07:00:44    inWallet=1 inModel=0 Index=3-3 showTransaction=1 derivedStatus=0
+2015-04-23 07:00:44 CreateNewBlock(): total size 1000
+2015-04-23 07:00:44 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:00:44 CreateNewBlock(): total size 1000
+2015-04-23 07:00:44 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:00:44 CreateNewBlock(): total size 1000
+2015-04-23 07:00:44 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:00:44 received getdata for: block 79cf79177518abdfffd6bc4e46b37ff5c726f353d2103aac9a41db3699a108b6
+2015-04-23 07:00:46 Flushing wallet.dat
+2015-04-23 07:00:46 Flushed wallet.dat 83ms
+2015-04-23 07:01:00 ResendWalletTransactions()
+2015-04-23 07:01:05 Flushed 0 addresses to peers.dat  13ms
+2015-04-23 07:09:12 NightHawkCoinMiner:
+2015-04-23 07:09:12 proof-of-work found  
+  hash: 00000efa63305ffb4d40483a16f713678b1a968acd78b6ff07c063e0c205506a  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2015-04-23 07:09:12 CBlock(hash=21e70b30d40b2d1f85554ea88285b8e4ba72ed827006d8194af8403fbf8833f4, input=02000000b608a19936db419aac3a10d253f326c7f57fb3464ebcd6ffdfab18751779cf7995990a3065e0f9de42a27345d4fefa42b6e7712e1953024c8787c8cbb0dad5a3979a3855f0ff0f1ed53e0800, PoW=00000efa63305ffb4d40483a16f713678b1a968acd78b6ff07c063e0c205506a, ver=2, hashPrevBlock=79cf79177518abdfffd6bc4e46b37ff5c726f353d2103aac9a41db3699a108b6, hashMerkleRoot=a3d5dab0cbc887874c0253192e71e7b642fafed44573a242def9e065300a9995, nTime=1429772951, nBits=1e0ffff0, nNonce=540373, vtx=1)
+2015-04-23 07:09:12   CTransaction(hash=a3d5dab0cbc887874c0253192e71e7b642fafed44573a242def9e065300a9995, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 580103062f503253482f)
+    CTxOut(nValue=25.00000000, scriptPubKey=0210f5cda284987d82201bfe9f8f74)
+  vMerkleTree: a3d5dab0cbc887874c0253192e71e7b642fafed44573a242def9e065300a9995 
+2015-04-23 07:09:12 generated 25.00
+2015-04-23 07:09:12 keypool keep 12
+2015-04-23 07:09:12 AddToWallet a3d5dab0cbc887874c0253192e71e7b642fafed44573a242def9e065300a9995  new
+2015-04-23 07:09:12 NotifyTransactionChanged a3d5dab0cbc887874c0253192e71e7b642fafed44573a242def9e065300a9995 status=0
+2015-04-23 07:09:12 updateWallet a3d5dab0cbc887874c0253192e71e7b642fafed44573a242def9e065300a9995 0
+2015-04-23 07:09:12    inWallet=1 inModel=0 Index=3-3 showTransaction=0 derivedStatus=0
+2015-04-23 07:09:12 Committing 1 changed transactions to coin database...
+2015-04-23 07:09:12 SetBestChain: new best=21e70b30d40b2d1f85554ea88285b8e4ba72ed827006d8194af8403fbf8833f4  height=8  log2_work=23.169947  tx=9  date=2015-04-23 07:09:11 progress=0.000000
+2015-04-23 07:09:12 NotifyTransactionChanged 009d127f6c5249d2769e62cbc647ecafd0c462bdab87a231a4c42d8aa5a44931 status=1
+2015-04-23 07:09:12 ProcessBlock: ACCEPTED
+2015-04-23 07:09:12 updateWallet 009d127f6c5249d2769e62cbc647ecafd0c462bdab87a231a4c42d8aa5a44931 1
+2015-04-23 07:09:12 CreateNewBlock(): total size 1000
+2015-04-23 07:09:12 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:09:12 CreateNewBlock(): total size 1000
+2015-04-23 07:09:12 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:09:12 CreateNewBlock(): total size 1000
+2015-04-23 07:09:12 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:09:12 received getdata for: block 21e70b30d40b2d1f85554ea88285b8e4ba72ed827006d8194af8403fbf8833f4
+2015-04-23 07:09:13 keypool added key 113, size=101
+2015-04-23 07:09:13 keypool reserve 13
+2015-04-23 07:09:13    inWallet=1 inModel=0 Index=0-0 showTransaction=1 derivedStatus=0
+2015-04-23 07:09:13 CreateNewBlock(): total size 1000
+2015-04-23 07:09:13 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:09:15 Flushing wallet.dat
+2015-04-23 07:09:15 Flushed wallet.dat 63ms
+2015-04-23 07:12:04 NightHawkCoinMiner:
+2015-04-23 07:12:04 proof-of-work found  
+  hash: 000008ef0651d14046ae5491be8d187398e18dcadd1fc22d1e90d7476f4a4b62  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2015-04-23 07:12:04 CBlock(hash=9aa3d2ff8e4488e37d6200451f4d97d2fc3716418aff66593d3e2183c41be718, input=02000000f43388bf3f40f84a19d8067082ed72bae4b88582a84e55851f2d0bd4300be721e283443055d1cfd38a10a26f6e240d4f21b8f67eae4b3980a6b667d316d42896449b3855f0ff0f1ec0ba0200, PoW=000008ef0651d14046ae5491be8d187398e18dcadd1fc22d1e90d7476f4a4b62, ver=2, hashPrevBlock=21e70b30d40b2d1f85554ea88285b8e4ba72ed827006d8194af8403fbf8833f4, hashMerkleRoot=9628d416d367b6a680394bae7ef6b8214f0d246e6fa2108ad3cfd155304483e2, nTime=1429773124, nBits=1e0ffff0, nNonce=178880, vtx=1)
+2015-04-23 07:12:04   CTransaction(hash=9628d416d367b6a680394bae7ef6b8214f0d246e6fa2108ad3cfd155304483e2, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 590104062f503253482f)
+    CTxOut(nValue=25.00000000, scriptPubKey=03dd1f97bab0275c21f91f6a59af74)
+  vMerkleTree: 9628d416d367b6a680394bae7ef6b8214f0d246e6fa2108ad3cfd155304483e2 
+2015-04-23 07:12:04 generated 25.00
+2015-04-23 07:12:04 keypool keep 3
+2015-04-23 07:12:04 AddToWallet 9628d416d367b6a680394bae7ef6b8214f0d246e6fa2108ad3cfd155304483e2  new
+2015-04-23 07:12:04 NotifyTransactionChanged 9628d416d367b6a680394bae7ef6b8214f0d246e6fa2108ad3cfd155304483e2 status=0
+2015-04-23 07:12:04 updateWallet 9628d416d367b6a680394bae7ef6b8214f0d246e6fa2108ad3cfd155304483e2 0
+2015-04-23 07:12:04    inWallet=1 inModel=0 Index=4-4 showTransaction=0 derivedStatus=0
+2015-04-23 07:12:04 Committing 1 changed transactions to coin database...
+2015-04-23 07:12:04 SetBestChain: new best=9aa3d2ff8e4488e37d6200451f4d97d2fc3716418aff66593d3e2183c41be718  height=9  log2_work=23.32195  tx=10  date=2015-04-23 07:12:04 progress=0.000000
+2015-04-23 07:12:04 NotifyTransactionChanged a3d5dab0cbc887874c0253192e71e7b642fafed44573a242def9e065300a9995 status=1
+2015-04-23 07:12:04 updateWallet a3d5dab0cbc887874c0253192e71e7b642fafed44573a242def9e065300a9995 1
+2015-04-23 07:12:04    inWallet=1 inModel=0 Index=4-4 showTransaction=1 derivedStatus=0
+2015-04-23 07:12:04 ProcessBlock: ACCEPTED
+2015-04-23 07:12:04 CreateNewBlock(): total size 1000
+2015-04-23 07:12:04 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:12:04 keypool added key 114, size=101
+2015-04-23 07:12:05 keypool reserve 14
+2015-04-23 07:12:05 CreateNewBlock(): total size 1000
+2015-04-23 07:12:05 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:12:05 CreateNewBlock(): total size 1000
+2015-04-23 07:12:05 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:12:05 CreateNewBlock(): total size 1000
+2015-04-23 07:12:05 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:12:05 received getdata for: block 9aa3d2ff8e4488e37d6200451f4d97d2fc3716418aff66593d3e2183c41be718
+2015-04-23 07:12:07 Flushing wallet.dat
+2015-04-23 07:12:07 Flushed wallet.dat 77ms
+2015-04-23 07:16:05 Flushed 0 addresses to peers.dat  26ms
+2015-04-23 07:17:19 NightHawkCoinMiner:
+2015-04-23 07:17:19 proof-of-work found  
+  hash: 00000359747641ca0655eb6aaa11eff2341efd5d15954085597cfd24eb62793b  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2015-04-23 07:17:19 CBlock(hash=503e4079f062e5268d89054a73d83345043e10c6c34340463ce27ba1a364a1ba, input=0200000018e71bc483213e3d5966ff8a411637fcd2974d1f4500627de388448effd2a39ad382646154214b1b4ca9b39afbef27d09848fabc1f0e2fea20466d0fac9c65857f9c3855f0ff0f1eb6af0400, PoW=00000359747641ca0655eb6aaa11eff2341efd5d15954085597cfd24eb62793b, ver=2, hashPrevBlock=9aa3d2ff8e4488e37d6200451f4d97d2fc3716418aff66593d3e2183c41be718, hashMerkleRoot=85659cac0f6d4620ea2f0e1fbcfa4898d027effb9ab3a94c1b4b2154616482d3, nTime=1429773439, nBits=1e0ffff0, nNonce=307126, vtx=1)
+2015-04-23 07:17:19   CTransaction(hash=85659cac0f6d4620ea2f0e1fbcfa4898d027effb9ab3a94c1b4b2154616482d3, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 5a0102062f503253482f)
+    CTxOut(nValue=25.00000000, scriptPubKey=0241fc116159ad25373ece19f12748)
+  vMerkleTree: 85659cac0f6d4620ea2f0e1fbcfa4898d027effb9ab3a94c1b4b2154616482d3 
+2015-04-23 07:17:19 generated 25.00
+2015-04-23 07:17:19 keypool keep 11
+2015-04-23 07:17:19 AddToWallet 85659cac0f6d4620ea2f0e1fbcfa4898d027effb9ab3a94c1b4b2154616482d3  new
+2015-04-23 07:17:19 NotifyTransactionChanged 85659cac0f6d4620ea2f0e1fbcfa4898d027effb9ab3a94c1b4b2154616482d3 status=0
+2015-04-23 07:17:19 updateWallet 85659cac0f6d4620ea2f0e1fbcfa4898d027effb9ab3a94c1b4b2154616482d3 0
+2015-04-23 07:17:19    inWallet=1 inModel=0 Index=4-4 showTransaction=0 derivedStatus=0
+2015-04-23 07:17:19 Committing 1 changed transactions to coin database...
+2015-04-23 07:17:19 SetBestChain: new best=503e4079f062e5268d89054a73d83345043e10c6c34340463ce27ba1a364a1ba  height=10  log2_work=23.459454  tx=11  date=2015-04-23 07:17:19 progress=0.000000
+2015-04-23 07:17:19 NotifyTransactionChanged 9628d416d367b6a680394bae7ef6b8214f0d246e6fa2108ad3cfd155304483e2 status=1
+2015-04-23 07:17:19 ProcessBlock: ACCEPTED
+2015-04-23 07:17:19 updateWallet 9628d416d367b6a680394bae7ef6b8214f0d246e6fa2108ad3cfd155304483e2 1
+2015-04-23 07:17:19 keypool added key 115, size=101
+2015-04-23 07:17:20 CreateNewBlock(): total size 1000
+2015-04-23 07:17:20 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:17:20 CreateNewBlock(): total size 1000
+2015-04-23 07:17:20 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:17:20 keypool reserve 15
+2015-04-23 07:17:20    inWallet=1 inModel=0 Index=4-4 showTransaction=1 derivedStatus=0
+2015-04-23 07:17:20 CreateNewBlock(): total size 1000
+2015-04-23 07:17:20 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:17:20 CreateNewBlock(): total size 1000
+2015-04-23 07:17:20 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:17:20 received getdata for: block 503e4079f062e5268d89054a73d83345043e10c6c34340463ce27ba1a364a1ba
+2015-04-23 07:17:22 Flushing wallet.dat
+2015-04-23 07:17:22 Flushed wallet.dat 86ms
+2015-04-23 07:19:29 NightHawkCoinMiner:
+2015-04-23 07:19:29 proof-of-work found  
+  hash: 0000012e529b02c0f18d9eb1f9ea2c3decc0e342dc9f834a8ce21093c333b417  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2015-04-23 07:19:29 CBlock(hash=c8e0626791e5c1fbea20af94c7b9fb44c0af3112efeb08153aa68e75ab174696, input=02000000baa164a3a17be23c464043c3c6103e044533d8734a05898d26e562f079403e5055f4d4cfff77280043912cbb8f2e4ad20907e3febd0ea0dd99433f8c800b22a7019d3855f0ff0f1e5c0c0200, PoW=0000012e529b02c0f18d9eb1f9ea2c3decc0e342dc9f834a8ce21093c333b417, ver=2, hashPrevBlock=503e4079f062e5268d89054a73d83345043e10c6c34340463ce27ba1a364a1ba, hashMerkleRoot=a7220b808c3f4399dda00ebdfee30709d24a2e8fbb2c9143002877ffcfd4f455, nTime=1429773569, nBits=1e0ffff0, nNonce=134236, vtx=1)
+2015-04-23 07:19:29   CTransaction(hash=a7220b808c3f4399dda00ebdfee30709d24a2e8fbb2c9143002877ffcfd4f455, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 5b0104062f503253482f)
+    CTxOut(nValue=25.00000000, scriptPubKey=021a67c7161488ade5f25d25901a5f)
+  vMerkleTree: a7220b808c3f4399dda00ebdfee30709d24a2e8fbb2c9143002877ffcfd4f455 
+2015-04-23 07:19:29 generated 25.00
+2015-04-23 07:19:29 keypool keep 5
+2015-04-23 07:19:29 AddToWallet a7220b808c3f4399dda00ebdfee30709d24a2e8fbb2c9143002877ffcfd4f455  new
+2015-04-23 07:19:29 NotifyTransactionChanged a7220b808c3f4399dda00ebdfee30709d24a2e8fbb2c9143002877ffcfd4f455 status=0
+2015-04-23 07:19:29 updateWallet a7220b808c3f4399dda00ebdfee30709d24a2e8fbb2c9143002877ffcfd4f455 0
+2015-04-23 07:19:29    inWallet=1 inModel=0 Index=7-7 showTransaction=0 derivedStatus=0
+2015-04-23 07:19:29 Committing 1 changed transactions to coin database...
+2015-04-23 07:19:29 SetBestChain: new best=c8e0626791e5c1fbea20af94c7b9fb44c0af3112efeb08153aa68e75ab174696  height=11  log2_work=23.584985  tx=12  date=2015-04-23 07:19:29 progress=0.000001
+2015-04-23 07:19:29 NotifyTransactionChanged 85659cac0f6d4620ea2f0e1fbcfa4898d027effb9ab3a94c1b4b2154616482d3 status=1
+2015-04-23 07:19:29 ProcessBlock: ACCEPTED
+2015-04-23 07:19:29 updateWallet 85659cac0f6d4620ea2f0e1fbcfa4898d027effb9ab3a94c1b4b2154616482d3 1
+2015-04-23 07:19:29 CreateNewBlock(): total size 1000
+2015-04-23 07:19:29 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:19:29 CreateNewBlock(): total size 1000
+2015-04-23 07:19:29 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:19:29 CreateNewBlock(): total size 1000
+2015-04-23 07:19:29 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:19:30 received getdata for: block c8e0626791e5c1fbea20af94c7b9fb44c0af3112efeb08153aa68e75ab174696
+2015-04-23 07:19:31 keypool added key 116, size=101
+2015-04-23 07:19:31 keypool reserve 16
+2015-04-23 07:19:31    inWallet=1 inModel=0 Index=4-4 showTransaction=1 derivedStatus=0
+2015-04-23 07:19:31 CreateNewBlock(): total size 1000
+2015-04-23 07:19:31 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:19:33 Flushing wallet.dat
+2015-04-23 07:19:33 Flushed wallet.dat 83ms
+2015-04-23 07:19:48 hashmeter      4 khash/s
+2015-04-23 07:22:08 NightHawkCoinMiner:
+2015-04-23 07:22:08 proof-of-work found  
+  hash: 00000f62daa24d48a58f54b068bf291621a79849556a70762bf7754364aff32b  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2015-04-23 07:22:08 CBlock(hash=20f421e203345267dc90cead78134ffd2abe9c8e05b8caac6793c6e2b3ae162a, input=02000000964617ab758ea63a1508ebef1231afc044fbb9c794af20eafbc1e5916762e0c8ee5906ad77dd85a307844fa0c2f67790878cc462f33ff7b09aa49992c7227a95a09d3855f0ff0f1e25850200, PoW=00000f62daa24d48a58f54b068bf291621a79849556a70762bf7754364aff32b, ver=2, hashPrevBlock=c8e0626791e5c1fbea20af94c7b9fb44c0af3112efeb08153aa68e75ab174696, hashMerkleRoot=957a22c79299a49ab0f73ff362c48c879077f6c2a04f8407a385dd77ad0659ee, nTime=1429773728, nBits=1e0ffff0, nNonce=165157, vtx=1)
+2015-04-23 07:22:08   CTransaction(hash=957a22c79299a49ab0f73ff362c48c879077f6c2a04f8407a385dd77ad0659ee, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 5c0105062f503253482f)
+    CTxOut(nValue=25.00000000, scriptPubKey=026ac71dc17a94c7669ba0b8559df8)
+  vMerkleTree: 957a22c79299a49ab0f73ff362c48c879077f6c2a04f8407a385dd77ad0659ee 
+2015-04-23 07:22:08 generated 25.00
+2015-04-23 07:22:08 keypool keep 16
+2015-04-23 07:22:08 AddToWallet 957a22c79299a49ab0f73ff362c48c879077f6c2a04f8407a385dd77ad0659ee  new
+2015-04-23 07:22:08 NotifyTransactionChanged 957a22c79299a49ab0f73ff362c48c879077f6c2a04f8407a385dd77ad0659ee status=0
+2015-04-23 07:22:08 updateWallet 957a22c79299a49ab0f73ff362c48c879077f6c2a04f8407a385dd77ad0659ee 0
+2015-04-23 07:22:08    inWallet=1 inModel=0 Index=5-5 showTransaction=0 derivedStatus=0
+2015-04-23 07:22:08 Committing 1 changed transactions to coin database...
+2015-04-23 07:22:08 SetBestChain: new best=20f421e203345267dc90cead78134ffd2abe9c8e05b8caac6793c6e2b3ae162a  height=12  log2_work=23.700462  tx=13  date=2015-04-23 07:22:08 progress=0.000001
+2015-04-23 07:22:08 NotifyTransactionChanged a7220b808c3f4399dda00ebdfee30709d24a2e8fbb2c9143002877ffcfd4f455 status=1
+2015-04-23 07:22:08 ProcessBlock: ACCEPTED
+2015-04-23 07:22:08 updateWallet a7220b808c3f4399dda00ebdfee30709d24a2e8fbb2c9143002877ffcfd4f455 1
+2015-04-23 07:22:08 CreateNewBlock(): total size 1000
+2015-04-23 07:22:08 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:22:08 CreateNewBlock(): total size 1000
+2015-04-23 07:22:08 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:22:08 keypool added key 117, size=101
+2015-04-23 07:22:08 CreateNewBlock(): total size 1000
+2015-04-23 07:22:08 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:22:08 keypool reserve 17
+2015-04-23 07:22:08    inWallet=1 inModel=0 Index=8-8 showTransaction=1 derivedStatus=0
+2015-04-23 07:22:08 CreateNewBlock(): total size 1000
+2015-04-23 07:22:08 Running NightHawkCoin with 1 transactions in block (186 bytes)
+2015-04-23 07:22:08 received getdata for: block 20f421e203345267dc90cead78134ffd2abe9c8e05b8caac6793c6e2b3ae162a
+2015-04-23 07:22:10 Flushing wallet.dat
+2015-04-23 07:22:10 Flushed wallet.dat 94ms
